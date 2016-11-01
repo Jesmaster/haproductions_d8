@@ -1,0 +1,28 @@
+uuid: 963f3f07-78d8-4578-b94e-1b196bcb1a9b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_other
+    - node.type.video
+    - taxonomy.vocabulary.other
+id: node.video.field_other
+field_name: field_other
+entity_type: node
+bundle: video
+label: Other
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      other: other
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

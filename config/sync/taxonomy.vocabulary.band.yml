@@ -1,0 +1,9 @@
+uuid: ae91e896-4538-4a5b-a66b-9106933a53c5
+langcode: en
+status: true
+dependencies: {  }
+name: Band
+vid: band
+description: ''
+hierarchy: 0
+weight: 0

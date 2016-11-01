@@ -1,0 +1,16 @@
+uuid: c58ee96a-b293-46fb-b1ac-12e8e0ff40d1
+langcode: en
+status: true
+dependencies: {  }
+name: video_search_result
+label: null
+effects:
+  b180f6a3-6bba-42c5-9bbe-86405c8e84be:
+    uuid: b180f6a3-6bba-42c5-9bbe-86405c8e84be
+    id: image_scale
+    weight: 1
+    data:
+      width: 256
+      height: 192
+      upscale: false
+      retinafy: 0

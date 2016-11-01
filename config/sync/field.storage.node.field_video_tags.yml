@@ -1,0 +1,20 @@
+uuid: 8cfbe2d8-346b-45eb-9538-705b37044bf5
+langcode: und
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_video_tags
+field_name: field_video_tags
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: -1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

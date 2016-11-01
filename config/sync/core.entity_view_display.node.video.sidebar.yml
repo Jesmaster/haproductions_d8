@@ -1,0 +1,89 @@
+uuid: 215842b0-9287-4335-9de4-4478f4ae908f
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.sidebar
+    - field.field.node.video.body
+    - field.field.node.video.comment_node_video
+    - field.field.node.video.field_anime
+    - field.field.node.video.field_band
+    - field.field.node.video.field_date_created
+    - field.field.node.video.field_genre
+    - field.field.node.video.field_images
+    - field.field.node.video.field_legacy
+    - field.field.node.video.field_other
+    - field.field.node.video.field_past_thoughts
+    - field.field.node.video.field_song
+    - field.field.node.video.field_video_file
+    - field.field.node.video.field_video_tags
+    - field.field.node.video.field_youtube_id
+    - node.type.video
+  module:
+    - datetime
+    - text
+    - user
+id: node.video.sidebar
+targetEntityType: node
+bundle: video
+mode: sidebar
+content:
+  field_anime:
+    label: above
+    weight: 3
+    type: entity_reference_label
+    settings:
+      link: true
+    third_party_settings: {  }
+  field_band:
+    label: above
+    weight: 6
+    type: entity_reference_label
+    settings:
+      link: true
+    third_party_settings: {  }
+  field_date_created:
+    label: above
+    weight: 1
+    type: datetime_default
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+  field_genre:
+    label: above
+    weight: 2
+    type: entity_reference_label
+    settings:
+      link: true
+    third_party_settings: {  }
+  field_other:
+    label: above
+    weight: 4
+    type: entity_reference_label
+    settings:
+      link: true
+    third_party_settings: {  }
+  field_song:
+    label: above
+    weight: 5
+    type: entity_reference_label
+    settings:
+      link: true
+    third_party_settings: {  }
+  field_video_file:
+    label: hidden
+    weight: 0
+    type: text_default
+    settings: {  }
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden:
+  body: true
+  comment_node_video: true
+  field_images: true
+  field_legacy: true
+  field_past_thoughts: true
+  field_video_tags: true
+  field_youtube_id: true

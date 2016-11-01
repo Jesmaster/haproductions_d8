@@ -1,0 +1,28 @@
+uuid: 5657748c-2cc5-4e2a-aded-4ae9fb0dcb97
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_band
+    - node.type.video
+    - taxonomy.vocabulary.band
+id: node.video.field_band
+field_name: field_band
+entity_type: node
+bundle: video
+label: Band
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      band: band
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

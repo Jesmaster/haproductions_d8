@@ -1,0 +1,20 @@
+uuid: 41ab0100-b5ff-49b5-a388-e4e79dc81444
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+  theme:
+    - ha_zurb
+id: ha_zurb_user_login
+theme: ha_zurb
+region: content
+weight: 0
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: ''
+  provider: user
+  label_display: '0'
+visibility: {  }

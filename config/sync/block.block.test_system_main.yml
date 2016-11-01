@@ -1,0 +1,20 @@
+uuid: 9918b515-f90e-49a0-b655-24c1ba1ac5c3
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - test
+id: test_system_main
+theme: test
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: ''
+  provider: system
+  label_display: '0'
+visibility: {  }

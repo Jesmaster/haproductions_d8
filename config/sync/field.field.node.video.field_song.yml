@@ -1,0 +1,28 @@
+uuid: 42ab8348-ae2e-4ca4-85b7-a80e7598495c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_song
+    - node.type.video
+    - taxonomy.vocabulary.song
+id: node.video.field_song
+field_name: field_song
+entity_type: node
+bundle: video
+label: Song
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      song: song
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,10 +1,10 @@
 uuid: 66673261-ee27-4abf-be85-1c7c969fa834
 name: 'HA Productions'
-mail: jesse@haproductions.net
+mail: jesmaster@haproductions.net
 slogan: ''
 page:
-  403: ''
-  404: ''
+  403: /
+  404: /
   front: /node
 admin_compact_mode: false
 weight_select_max: 100

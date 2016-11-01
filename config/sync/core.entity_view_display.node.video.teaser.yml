@@ -1,0 +1,60 @@
+uuid: 5b0373db-6303-424f-a0d9-5e8616effd49
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.video.body
+    - field.field.node.video.comment_node_video
+    - field.field.node.video.field_anime
+    - field.field.node.video.field_band
+    - field.field.node.video.field_date_created
+    - field.field.node.video.field_genre
+    - field.field.node.video.field_images
+    - field.field.node.video.field_legacy
+    - field.field.node.video.field_other
+    - field.field.node.video.field_past_thoughts
+    - field.field.node.video.field_song
+    - field.field.node.video.field_video_file
+    - field.field.node.video.field_video_tags
+    - field.field.node.video.field_youtube_id
+    - node.type.video
+  module:
+    - image
+    - text
+    - user
+id: node.video.teaser
+targetEntityType: node
+bundle: video
+mode: teaser
+content:
+  body:
+    label: hidden
+    weight: 1
+    type: text_summary_or_trimmed
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+  field_images:
+    label: hidden
+    weight: 0
+    type: image
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden:
+  comment_node_video: true
+  field_anime: true
+  field_band: true
+  field_date_created: true
+  field_genre: true
+  field_legacy: true
+  field_other: true
+  field_past_thoughts: true
+  field_song: true
+  field_video_file: true
+  field_video_tags: true
+  field_youtube_id: true

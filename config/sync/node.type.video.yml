@@ -1,0 +1,11 @@
+uuid: d815a3b1-8ff0-4718-9b32-e2e8b8192328
+langcode: en
+status: true
+dependencies: {  }
+name: Video
+type: video
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

@@ -1,0 +1,10 @@
+uuid: 160becfc-606a-4a56-8e26-bebb3763d357
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.sidebar
+label: sidebar
+targetEntityType: node
+cache: true

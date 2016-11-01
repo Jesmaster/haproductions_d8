@@ -1,0 +1,9 @@
+uuid: 00016d77-9f80-485a-b4ef-bc0759caab4d
+langcode: en
+status: true
+dependencies: {  }
+name: 'Video Tags'
+vid: video_tags
+description: ''
+hierarchy: 0
+weight: 0

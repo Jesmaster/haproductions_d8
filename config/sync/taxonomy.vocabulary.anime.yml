@@ -1,0 +1,9 @@
+uuid: 18c82498-cfc4-4758-bc5d-3bb648bb34c9
+langcode: en
+status: true
+dependencies: {  }
+name: Anime
+vid: anime
+description: ''
+hierarchy: 0
+weight: 0

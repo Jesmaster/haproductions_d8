@@ -1,0 +1,19 @@
+uuid: 42466a08-4a74-46de-8281-32d045535b78
+langcode: und
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_past_thoughts
+field_name: field_past_thoughts
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
