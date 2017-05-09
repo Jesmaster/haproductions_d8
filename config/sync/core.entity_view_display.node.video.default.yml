@@ -34,6 +34,7 @@ content:
     type: text_default
     settings: {  }
     third_party_settings: {  }
+    region: content
   comment_node_video:
     label: hidden
     type: comment_default
@@ -42,12 +43,14 @@ content:
       view_mode: default
       pager_id: 0
     third_party_settings: {  }
+    region: content
   field_past_thoughts:
     label: hidden
     weight: 0
     type: text_default
     settings: {  }
     third_party_settings: {  }
+    region: content
 hidden:
   field_anime: true
   field_band: true

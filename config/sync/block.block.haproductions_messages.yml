@@ -1,0 +1,22 @@
+uuid: a33f804a-b127-474a-ace9-0b3f39c993bb
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - haproductions
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: haproductions_messages
+theme: haproductions
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

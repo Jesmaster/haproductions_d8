@@ -1,0 +1,20 @@
+uuid: b2d5fff3-b18b-4a2b-9e6d-44bccc6573a6
+langcode: en
+status: true
+dependencies:
+  theme:
+    - haproductions
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: haproductions_local_actions
+theme: haproductions
+region: content
+weight: -6
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

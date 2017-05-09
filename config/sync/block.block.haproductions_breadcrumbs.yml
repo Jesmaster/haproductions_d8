@@ -1,0 +1,22 @@
+uuid: 2eb2bac3-40c9-4632-88b4-702053b6cb09
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - haproductions
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: haproductions_breadcrumbs
+theme: haproductions
+region: navigation
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

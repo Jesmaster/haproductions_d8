@@ -35,6 +35,7 @@ content:
     settings:
       trim_length: 600
     third_party_settings: {  }
+    region: content
   field_images:
     label: hidden
     weight: 0
@@ -43,8 +44,10 @@ content:
       image_style: ''
       image_link: ''
     third_party_settings: {  }
+    region: content
   links:
     weight: 100
+    region: content
 hidden:
   comment_node_video: true
   field_anime: true

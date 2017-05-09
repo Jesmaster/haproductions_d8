@@ -35,6 +35,7 @@ content:
     settings:
       link: true
     third_party_settings: {  }
+    region: content
   field_band:
     label: above
     weight: 6
@@ -42,6 +43,7 @@ content:
     settings:
       link: true
     third_party_settings: {  }
+    region: content
   field_date_created:
     label: above
     weight: 1
@@ -50,6 +52,7 @@ content:
       format_type: medium
       timezone_override: ''
     third_party_settings: {  }
+    region: content
   field_genre:
     label: above
     weight: 2
@@ -57,6 +60,7 @@ content:
     settings:
       link: true
     third_party_settings: {  }
+    region: content
   field_other:
     label: above
     weight: 4
@@ -64,6 +68,7 @@ content:
     settings:
       link: true
     third_party_settings: {  }
+    region: content
   field_song:
     label: above
     weight: 5
@@ -71,14 +76,17 @@ content:
     settings:
       link: true
     third_party_settings: {  }
+    region: content
   field_video_file:
     label: hidden
     weight: 0
     type: text_default
     settings: {  }
     third_party_settings: {  }
+    region: content
   links:
     weight: 100
+    region: content
 hidden:
   body: true
   comment_node_video: true

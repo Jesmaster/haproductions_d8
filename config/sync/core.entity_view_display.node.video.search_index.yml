@@ -34,6 +34,7 @@ content:
     type: text_default
     settings: {  }
     third_party_settings: {  }
+    region: content
   field_date_created:
     label: hidden
     weight: 2
@@ -42,14 +43,17 @@ content:
       format_type: medium
       timezone_override: ''
     third_party_settings: {  }
+    region: content
   field_past_thoughts:
     label: hidden
     weight: 0
     type: text_default
     settings: {  }
     third_party_settings: {  }
+    region: content
   links:
     weight: 100
+    region: content
 hidden:
   comment_node_video: true
   field_anime: true
