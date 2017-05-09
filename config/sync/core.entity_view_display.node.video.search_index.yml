@@ -35,6 +35,22 @@ content:
     settings: {  }
     third_party_settings: {  }
     region: content
+  field_anime:
+    type: entity_reference_label
+    weight: 3
+    region: content
+    label: hidden
+    settings:
+      link: false
+    third_party_settings: {  }
+  field_band:
+    type: entity_reference_label
+    weight: 4
+    region: content
+    label: hidden
+    settings:
+      link: false
+    third_party_settings: {  }
   field_date_created:
     label: hidden
     weight: 2
@@ -44,6 +60,22 @@ content:
       timezone_override: ''
     third_party_settings: {  }
     region: content
+  field_genre:
+    type: entity_reference_label
+    weight: 5
+    region: content
+    label: hidden
+    settings:
+      link: false
+    third_party_settings: {  }
+  field_other:
+    type: entity_reference_label
+    weight: 6
+    region: content
+    label: hidden
+    settings:
+      link: false
+    third_party_settings: {  }
   field_past_thoughts:
     label: hidden
     weight: 0
@@ -51,18 +83,26 @@ content:
     settings: {  }
     third_party_settings: {  }
     region: content
-  links:
-    weight: 100
+  field_song:
+    type: entity_reference_label
+    weight: 7
     region: content
+    label: hidden
+    settings:
+      link: false
+    third_party_settings: {  }
+  field_video_tags:
+    type: entity_reference_label
+    weight: 8
+    region: content
+    label: hidden
+    settings:
+      link: false
+    third_party_settings: {  }
 hidden:
   comment_node_video: true
-  field_anime: true
-  field_band: true
-  field_genre: true
   field_images: true
   field_legacy: true
-  field_other: true
-  field_song: true
   field_video_file: true
-  field_video_tags: true
   field_youtube_id: true
+  links: true

@@ -11,7 +11,7 @@ _core:
 id: haproductions_haproductions_system_main
 theme: haproductions
 region: content
-weight: -3
+weight: -2
 provider: null
 plugin: system_main_block
 settings:
