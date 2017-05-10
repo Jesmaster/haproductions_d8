@@ -152,7 +152,31 @@ display:
           min_length: null
           fields: {  }
           plugin_id: search_api_fulltext
-      sorts: {  }
+      sorts:
+        field_date_created:
+          id: field_date_created
+          table: search_api_index_video_search
+          field: field_date_created
+          relationship: none
+          group_type: group
+          admin_label: ''
+          order: DESC
+          exposed: false
+          expose:
+            label: ''
+          plugin_id: search_api
+        field_legacy:
+          id: field_legacy
+          table: search_api_index_video_search
+          field: field_legacy
+          relationship: none
+          group_type: group
+          admin_label: ''
+          order: ASC
+          exposed: false
+          expose:
+            label: ''
+          plugin_id: search_api
       title: Videos
       header: {  }
       footer: {  }

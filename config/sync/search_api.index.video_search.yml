@@ -3,6 +3,9 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.storage.node.field_legacy
+    - field.storage.node.field_date_created
+    - field.storage.node.field_anime
     - search_api.server.solr
     - core.entity_view_mode.node.search_index
   module:
@@ -44,6 +47,30 @@ field_settings:
     type: integer
     indexed_locked: true
     type_locked: true
+  field_legacy:
+    label: Legacy
+    datasource_id: 'entity:node'
+    property_path: field_legacy
+    type: boolean
+    dependencies:
+      config:
+        - field.storage.node.field_legacy
+  field_date_created:
+    label: Released
+    datasource_id: 'entity:node'
+    property_path: field_date_created
+    type: date
+    dependencies:
+      config:
+        - field.storage.node.field_date_created
+  field_anime:
+    label: Anime
+    datasource_id: 'entity:node'
+    property_path: field_anime
+    type: integer
+    dependencies:
+      config:
+        - field.storage.node.field_anime
 datasource_settings:
   'entity:node':
     bundles:
