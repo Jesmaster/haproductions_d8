@@ -5,7 +5,6 @@ dependencies:
   config:
     - field.storage.node.field_legacy
     - field.storage.node.field_date_created
-    - field.storage.node.field_anime
     - search_api.server.solr
     - core.entity_view_mode.node.search_index
   module:
@@ -63,14 +62,6 @@ field_settings:
     dependencies:
       config:
         - field.storage.node.field_date_created
-  field_anime:
-    label: Anime
-    datasource_id: 'entity:node'
-    property_path: field_anime
-    type: integer
-    dependencies:
-      config:
-        - field.storage.node.field_anime
 datasource_settings:
   'entity:node':
     bundles:
